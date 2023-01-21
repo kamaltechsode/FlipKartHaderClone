@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<!-- font-awesome link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- css-link -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- bootstrap-link -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+    <form class="d-flex">
+        <input class="form-control" type="search" placeholder="search any it softwears" aria-label="Search">
+        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+      </form>
+      <div class="icon d-flex">
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-shopping-cart"></a>
+            <a href="#" class="fa fa-user"></a>
+            <a href="#" class="fa fa-bars opensearch"></a>
+            <ul class="hidesearch">
+            	<li>
+            		<a href="#">women</a>
+            	</li>
+            	<li>
+            		<a href="#">women</a>
+            	</li>
+            	<li>
+            		<a href="#">women</a>
+            	</li>
+            </ul>
+        </div>
+       <!--  <a href="#" class="search-bar">
+          <i class="fa-solid fa-magnifying-glass opensearch"></i>
+          <input class="form-control me-2 hidesearch" type="search" placeholder="Search" aria-label="Search">
+        </a> -->
+
+
+  </div>
+</nav>
+</header>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script>  
+$(document).ready(function(){  
+  $(".opensearch").click(function(){  
+      $(".hidesearch").toggleClass("ok");  
+  }); 
+});  
+</script> 
+</body>
+</html>

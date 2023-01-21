@@ -1,0 +1,117 @@
+body{
+	padding: 0px;
+	margin: 0px;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+a.navbar-brand {
+    width: 22%;
+}
+a.navbar-brand img {
+    width: 65%;
+}
+header {
+    background-color: #007bff;
+    position: relative;
+}
+input.form-control {
+    height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+form.d-flex {
+    width: 35%;
+}
+
+
+/*icon*/
+a.fa.fa-heart {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 8px;
+    transition: 0.5s;
+}
+a.fa.fa-heart:hover{
+    color: black;
+}
+
+
+
+
+a.fa.fa-shopping-cart {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 8px;
+    transition: 0.5s;
+}
+a.fa.fa-shopping-cart:hover{
+    color: black;
+}
+
+
+
+a.fa.fa-user {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 8px;
+    transition: 0.5s;
+}
+a.fa.fa-user:hover{
+    color: black;
+}
+
+
+a.fa.fa-bars {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 8px;
+    transition: 0.5s;
+}
+a.fa.fa-bars:hover{
+    color: black;
+}
+.hidesearch{
+    display: none;
+}
+.hidesearch.ok{
+    display: block;
+}
+ul.hidesearch.ok {
+    padding: 0px;
+    width: 100% !important;
+    background-color: #007bff;
+    position: absolute !important;
+    top: 98%;
+    right: 0px;
+}
+ul.hidesearch li {
+    list-style: none;
+}
+ul.hidesearch li a{
+    color: white;
+    text-decoration: none;
+    background-color: #007bff;
+    display: block;
+    padding: 15px;
+    font-size: 15px;
+}
+
+@media(max-width: 990.98px){
+    form.d-flex {
+       width: 100%;
+       display: block;
+   }
+   .icon.d-flex {
+       position: fixed;
+       right: 8px;
+       top: 23px;
+   }
+    }
